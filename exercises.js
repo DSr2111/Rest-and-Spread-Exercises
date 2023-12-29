@@ -28,7 +28,7 @@ const mergeObjects = (obj1, obj2) => ({ ...obj1, ...obj2 });
 //Write a function called doubleAndReturnArgs which accepts an array and a variable number of arguments.
 //The function should return a new array with the original array values and all of additional arguments doubled.
 
-const doubleAndReturnArgs = undefined;
+const doubleAndReturnArgs = (arr, ...vals) => [arr, ...vals.map(num * 2)];
 
 /** remove a random element in the items array
 and return a new array without that item. */

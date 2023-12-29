@@ -53,7 +53,9 @@ const addKeyVal = (obj, key, val) => {
 
 /** Return a new object with a key removed. */
 
-function removeKey(obj, key) {}
+const removeKey = (obj, key) => {
+  return { ...obj, [key]: "" };
+};
 
 /** Combine two objects and return a new object. */
 

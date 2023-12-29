@@ -20,6 +20,10 @@ const filterOutOdds = (...args) => args.filter((v) => v % 2 === 0);
 
 const findMin = (...nums) => Math.min(nums);
 
+function findMin2(...vals) {
+  return Math.min(...vals);
+}
+
 //Write a function called mergeObjects that accepts two objects
 // and returns a new object which contains all the keys and values of the first object and second object.
 
